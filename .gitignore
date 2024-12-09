@@ -7,3 +7,4 @@ tests/
 *.nsys-rep
 tests.py
 _*
+experiments/
