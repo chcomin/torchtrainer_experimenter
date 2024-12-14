@@ -16,3 +16,5 @@ git clone https://github.com/chcomin/torchtrainer_experimenter.git
 If you do not use conda, replace the pip install command by
 
 ```pip install -e torchtrainer```
+
+By the way, if you use VSCode it might be necessary to add the torchtrainer directory to python.analysis.extraPaths for proper linter support.
