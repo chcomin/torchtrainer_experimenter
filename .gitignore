@@ -9,3 +9,4 @@ tests.py
 _*
 **/experiments/*
 !**/experiments/example_experiment
+!**/experiments/drive
