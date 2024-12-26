@@ -1,0 +1,16 @@
+benchmark: false
+dataset_class: vessmap
+dataset_params: {}
+dataset_path: /home/chcomin/Dropbox/shared_datasets/VessMAP
+deterministic: false
+device: cuda:0
+model_class: unet_lw
+model_params: {}
+resize_size:
+- 256
+- 256
+run_path: experiments/example_experiment/example_run
+seed: 0
+threshold: 0.6352940797805786
+tta_type: probs
+use_amp: false
