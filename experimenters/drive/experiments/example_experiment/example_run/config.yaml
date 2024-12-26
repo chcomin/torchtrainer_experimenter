@@ -1,0 +1,45 @@
+augmentation_strategy: null
+benchmark: false
+bs_train: 4
+bs_valid: 8
+copy_model_every: 0
+dataset_class: drive
+dataset_params:
+  use_ignore_index: false
+dataset_path: /home/chcomin/Dropbox/shared_datasets/DRIVE
+deterministic: false
+device: cuda:0
+experiment_name: example_experiment
+experiments_path: experiments
+ignore_class_weights: true
+loss_function: cross_entropy
+lr: 0.01
+lr_decay: 1.0
+maximize_validation_metric: true
+meta: ''
+model_name: unet_lw
+model_params: {}
+momentum: 0.9
+num_epochs: 1000
+num_workers: 5
+optimizer: adam
+patience: null
+resize_size:
+- 512
+- 512
+run_name: example_run
+save_val_imgs: true
+seed: 0
+split_strategy: file
+timestamp_end: 2024-12-22-10:56:50
+timestamp_start: 2024-12-22-10:50:10
+use_amp: false
+val_img_indices:
+- 0
+- 1
+- 2
+- 3
+validate_every: 50
+validation_metric: Dice
+weight_decay: 0.0
+weights_strategy: null

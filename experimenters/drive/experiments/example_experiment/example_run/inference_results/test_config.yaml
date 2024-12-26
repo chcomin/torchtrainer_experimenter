@@ -1,0 +1,16 @@
+benchmark: false
+dataset_class: drive
+dataset_params: {}
+dataset_path: /home/chcomin/Dropbox/shared_datasets/DRIVE
+deterministic: false
+device: cuda:0
+model_class: unet_lw
+model_params: {}
+resize_size:
+- 512
+- 512
+run_path: experiments/example_experiment/example_run
+seed: 0
+threshold: 0.40392160415649414
+tta_type: probs
+use_amp: false
