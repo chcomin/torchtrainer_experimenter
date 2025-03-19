@@ -1,6 +1,6 @@
 # Torchtrainer experimeter
 
-Experiment template for training neural networks using the [torchtrainer package](https://github.com/chcomin/torchtrainer).
+Experiment templates for training neural networks using the [torchtrainer package](https://github.com/chcomin/torchtrainer).
 
 Use the following commands to set up the template:
 
